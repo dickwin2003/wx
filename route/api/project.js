@@ -25,7 +25,7 @@ router.get('/detail/:id', function(req, res) {
         res.end();
     })
   });
-  router.get('/del/:id', function(req, res) {
+router.get('/del/:id', function(req, res) {
     var id =req.params.id;
     var sql = 'delete from project_detail where project_id=?';
     conn.query(sql,id,function(err,results,rows){
