@@ -1,0 +1,14 @@
+应用实例，访问地址为 http://:::81
+应用实例，访问地址为 http://:::81
+/usr/wx/route/api/project.js:11
+        if (err && err.number != mysql.ERROR_DB_CREATE_EXISTS) {
+                                 ^
+
+ReferenceError: mysql is not defined
+    at Query._callback (/usr/wx/route/api/project.js:11:34)
+    at Query.Sequence.end (/usr/wx/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /usr/wx/node_modules/mysql/lib/protocol/Protocol.js:225:14
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    at process._tickCallback (internal/process/next_tick.js:161:9)
+应用实例，访问地址为 http://:::81
+应用实例，访问地址为 http://:::81
